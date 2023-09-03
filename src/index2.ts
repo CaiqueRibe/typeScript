@@ -100,7 +100,6 @@ class Employee extends Person{
     register() {
         return `${this.name} is now registered as a ${this.position}`;
       }
-
 }
 
 const emp = new Employee(3, 'Sean', 'Developer')
